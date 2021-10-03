@@ -1,0 +1,28 @@
+.contact h2,.contact p{text-align: center}
+.contact .c-img{
+    color: #fff;
+    height: 400px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding-top: 36px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact input{
+    height: 50px;
+    padding-left: 14px; 
+    min-width: 49.5%;
+    border: none;
+    margin-bottom: 20px;
+    background: rgb(245,245,245);
+}
+.contact input:hover{background: #ddd;}
+.contact .subject ,textarea{
+    min-width: 100%;}
+textarea{
+    height: 140px;
+    border: none;
+    padding-left: 14px; 
+    background: rgb(245,245,245);}
+textarea:hover{background: #ddd;}

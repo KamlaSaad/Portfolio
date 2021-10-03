@@ -1,0 +1,84 @@
+*{box-sizing: border-box;}
+body{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    font-size: 19px;
+    padding: 280px 10%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.home h1{
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+.home button:hover{
+    color: #fff;
+    background: transparent;
+}
+.home button,.about button,
+.news button,.contact button{
+    width: 140px;
+    height: 60px;
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.about,.work,.services,.news,.contact{
+    width: 100%;
+    padding: 100px 10%;
+    background: #fff;
+}
+.nums,.carousel,.logo{
+    width: 100%;
+    text-align: center;
+    padding: 100px 10%;
+    color: #fff;}
+.nums,.carousel{
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+@media(max-width:1015px){
+    .work .my-img,.work img 
+    ,.work .cover{height: 200px;line-height: 200px;}
+}
+
+@media(max-width:765px){
+    .logo img{width: 100px;}
+    .services{padding: 120px 18%}
+}
+@media(max-width:690px){
+    .home h1{font-size: 40px;}
+    .home ,.nums,.carousel{
+        background-size: cover;
+        background-position: center
+    }
+    .home button,.about button,
+    .news button,.contact button{
+        width: 120px;
+        height: 45px;
+        margin: 5px auto;}
+    
+}
+@media(max-width:600px){
+    .work a {
+        font-size: 17px;
+        padding: 5px 10px;}
+    
+}
+@media(max-width:560px){
+    #dropdowan a{font-size: 18px}
+    .contact input{min-width: 100%;}
+    .work .my-img,.work img 
+    ,.work .cover{height: 240px;}
+}

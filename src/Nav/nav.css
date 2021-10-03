@@ -1,0 +1,70 @@
+nav{
+    width: 100%;
+    height: 90px;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    position: fixed;
+    background: #fff;
+    
+}
+nav h2{
+    font-family: Copperplate Gothic;
+    display: inline-block;
+    margin-left: 60px;
+    line-height: 70px;
+}
+nav .links{
+    float: right;
+    margin-right: 100px;
+}
+nav a{
+    text-decoration: none;
+    color: #888;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    line-height: 90px;
+}
+nav a:hover{color: #000;text-decoration: none;}
+#menu{
+    border: none;
+    background: transparent;
+    float: right;
+    height: 26px;
+    margin-top: 20px;
+    display: none;
+}
+#menu:focus{outline: 0;}
+#dropdowan{
+    margin-top: 0;
+    width: 100%;
+    background: #222;
+    margin-top: 0;
+    transition: all .4s ease-in-out; 
+    top: 90px;
+    z-index: 9999;
+    position: fixed;
+    overflow: hidden;
+}
+.drop{height: 500px;}
+#dropdowan a{
+    color: #ddd;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    font-size: 19px;
+    font-weight: 450;
+    text-align: center;
+}
+#dropdowan hr{
+    height: 1px;
+    width: 100%;
+    background: #888;
+}
+#dropdowan a:hover{color: #fff;}
+@media(max-width:900px){
+    nav .links{display: none;}
+    #menu{display: inline}
+}

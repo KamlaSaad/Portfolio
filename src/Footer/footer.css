@@ -1,0 +1,10 @@
+footer{
+    height: 300px;
+    text-align: center;
+    padding-top: 120px;
+    background: #000;
+    color: #aaa;
+}
+footer i{color: #aaa;margin: 10px;}
+footer i.fa{font-size: 22px;}
+footer i:hover{color: #fff;}

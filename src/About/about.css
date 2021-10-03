@@ -1,0 +1,25 @@
+.about h2,.about h4{font-weight: 600;}
+
+.about img{
+    max-width: 100%;
+    margin: -50px auto 20px;
+}
+.about button,.contact button{
+    width: 165px;
+    border: 2px solid #000;
+}
+.about button:hover{
+    color: #fff;
+    background: #000;
+}
+.contact button:hover{
+    color: #fff;
+    background: #000;
+}
+.about label{
+    font-weight: 500;
+    font-size: 18px;}
+.about p,.about span{
+    font-size: 18px;
+    color: #777;
+}
